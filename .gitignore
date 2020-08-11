@@ -1,0 +1,232 @@
+# Languages/platforms
+
+## Android
+*.apk
+*.ap_
+*.aab
+*.dex
+
+## React
+.DS_*
+**/*.backup.*
+**/*.back.*
+*.sublime*
+psd
+thumb
+sketch
+
+## ReactNative
+.expo
+__generated__
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+buck-out/
+.buckconfig.local
+.buckd/
+.buckversion
+.fakebuckversion
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+## Java
+.factorypath
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.java-version
+.jenv-version
+
+## R
+.Rproj.user
+.Rhistory
+src/r/packrat/lib*/
+
+## Compiled sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyo
+*.pyc
+*.pyx
+
+# -----------------------------------------
+
+# OS
+
+## OSX
+.DS_Store
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# -----------------------------------------
+
+# Dependency managers
+
+## Gradle
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+.gradle/
+
+## Node
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+*.lcov
+.grunt
+.tmp/
+build/Release
+*.tsbuildinfo
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.env.test
+.cache
+public/
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
+node_modules/
+
+## Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# -----------------------------------------
+
+# IDE's
+
+## Jetbrains
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+## Eclipse
+.metadata
+bin/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.apt_generated
+.springBeans
+.sts4-cache/
+.factorypath
+
+## VS Code
+.vscode/*
+
+# -----------------------------------------
+
+# MISC
+
+## lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+## Sonar
+.sonar/
+.scannerwork/
+.sonarlint/
+
+## Crash log files
+crash.log
+
+application-local.*
+whitesource/
+
+target/
+.mvn/*
+.DS_Store
+bootstrap-local.yml
